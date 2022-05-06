@@ -1,0 +1,74 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form{
+    background-color: #87DFFF;
+    padding: 20px;
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px rgba(29, 0, 0, 0.521);
+
+}
+label{
+    margin-top: 10px;
+}
+input{
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px rgba(10, 10, 10, 0.521);
+    font-size: 15px;
+    padding: 5px;
+}
+button{
+    margin-top: 20px;
+    font-size: 25px;
+    border: solid black 1px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 9px rgba(4, 78, 128, 0.521);
+    background-color: #E99B26;
+    color: white;
+}
+select{
+    padding: 5px;
+    font-size: 15px;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px rgba(10, 10, 10, 0.521);
+}
+textarea{
+    font-size: 15px;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px rgba(10, 10, 10, 0.521);
+}
+fieldset{
+    margin-top: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px rgba(10, 10, 10, 0.521);
+}
+#env{
+    margin-top: 10px;
+    background-color: #E99B26;
+    color: white;
+    border-radius: 10px;
+}
+
+#bro{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#env2{
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #E99B26;
+    color: white;
+}
