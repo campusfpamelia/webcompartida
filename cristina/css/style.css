@@ -1,0 +1,293 @@
+nav{
+    height: 100px;
+    background-color: white;
+}
+
+.enLinea{
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(79, 194, 131);
+    font-family: 'Outfit', sans-serif;
+}
+
+#menu{
+    height: 100px;
+    width: 1100px;
+    /* background-color:crimson; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 30px;
+    width: auto;
+}
+
+.padding{
+    padding-right: 50px;
+}
+
+#centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.Derecha{
+
+    display: block;
+    float: right;
+}
+
+#primerFondo{
+    height: 600px;
+    background-image: url(https://www.mercadona.es/v61/static/media/banner1@1x.014a63d2.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#enlaceApartado{
+    text-decoration: none;
+    color: rgb(79, 194, 131);
+}
+
+#seccionDerecha{
+    height: 100px;
+    width: 400px;
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+#contenedorTextoPrincipio{
+    padding-top: 50px;
+    padding-right: 100px;
+    height: 350px;
+    width: 25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+#apartado1{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#apartado2{
+    height: 300px;
+    background-color: rgb(244, 247, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#apartado3{
+    height: 350px;
+    background-color: #f3f2ee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#parrafo{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#parrafo2{
+    height: 290px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#contenedorImagen{
+    height: 350px;
+    width: 500;
+}
+
+#contenedorTexto{
+    padding-left: 200px;
+    padding-top: 50px;
+    height: 350px;
+    width: 500;
+    font-family: 'Outfit', sans-serif;
+}
+
+#imagenes{
+    height: 300px;
+    width: auto;
+}
+
+#imagenFondo{
+    
+    height: 350px;
+    width: auto;
+}
+
+#final{
+    height: 400px;
+    background-color: rgb(64, 87, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.linea{
+    height: 25px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#postal{
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+::placeholder{
+    color:rgb(196, 196, 196);
+    font-family: 'Outfit', sans-serif;
+}
+
+.separar{
+    margin-top: 70px;
+}
+
+button{
+    
+    background-color: rgb(79, 194, 131);
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-color: rgb(79, 194, 131);
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    
+}
+
+#parteSuperior{
+    height: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columnas{
+    height: 300;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input{
+    display: block;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(201, 218, 218);
+    height: 50px;
+    width: 200px;
+    background-color: rgb(249, 255, 254);
+    font-size: larger;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    background-color:honeydew;
+}
+
+#centrarForm{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li p{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+ul li h1{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+.parrafoApartados{
+    color: rgb(138, 138, 138);
+}
+
+#logoSuperior{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoLogin{
+    height: 50px;
+    width: auto;
+}
+
+#botonEnviar{
+    height: 50px;
+    width: 200px;
+    background-color: limegreen;
+    border-color: limegreen;
+    color: white;
+    font-size: larger;
+}
+
