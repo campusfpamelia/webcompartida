@@ -1,0 +1,15 @@
+h1{
+background-color: rgb(90, 82, 82);
+color: white;
+border-radius: 30px;
+padding-left: 20px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    box-shadow: 8px 8px 10px grey;
+    margin: 4px 4px 4px 4px;
+}
