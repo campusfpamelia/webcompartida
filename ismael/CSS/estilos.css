@@ -1,0 +1,207 @@
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.contenedorregistro{
+    width: 100%;
+    height: 969px;
+    background-color: black;
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.double{
+    border:10px double plum;
+    border-radius: 50px;
+}
+.ridge{
+    border:12px ridge aquamarine;
+}
+a{
+    text-decoration: none;
+}
+.cabecera{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedorinicio{
+    width: 100%;
+    height: 969px;
+    background-color: black;
+}
+/* Inicio pie de pagina*/
+.piepagina{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0 auto;
+}
+.piepagina a{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 25px;
+}
+.piecontacto{
+    color: darkgrey;
+    /*margin: 0 auto;*/
+
+}
+.piecontac{
+    width: 70%;
+    margin: 0 auto;
+}
+/* Fin pie de pagina*/
+#titulo{
+    width: 50%;
+}
+#titulo h1{
+    color:red;
+}
+#fondo{
+    background-image: url("imagenes/siesta_nerflix.png");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#textofondo{
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    
+}
+#textofondo a{
+    text-decoration: none;
+    color: black;
+}
+#textofondo input{
+    font-size: 25px;
+}
+
+.negro{
+    color:aqua;
+    font-size: 35px;
+}
+.fondorojo{
+    background-color: brown;
+}
+.vacio{
+    text-decoration: none;
+}
+.textonegro{
+    color: black;
+}
+#contenedor{
+    border-bottom: 8px solid #222;
+}
+#email button{
+    font-size: 20px;
+}
+.ventajas{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ventajas img{
+    width: 500px;
+    height: auto;
+    border: 0;
+}
+.ventajas h1{
+    font-size: 60px;
+}
+.ventajas h2{
+    font-size: 50px;
+}
+.solid{
+    border-style: solid;
+    border-width: 1px 20px 1px 50px ;
+    border-color: white;
+}
+#opciones a{
+    text-decoration: none;
+}
+
+/* Inicio de registro*/
+
+#registro input{
+    display:block;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#registro label{
+    display:block;
+    font-size:20px;
+    color: white;
+   
+}
+#registro button{
+    text-decoration: none;
+    font-size: 20px;
+    cursor:pointer;
+    border-radius: 15px;
+}
+#registro p{
+    font-size: 50px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#registro{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    /*display:block;*/
+    
+    /*background-color: white;*/
+    border-radius: 15px;
+}
+#registro form{
+    display: grid;
+    width: 70%;
+    margin: 0 auto;
+}
+/* Boton de registro*/
+#siguiente{
+    cursor:pointer;
+    text-decoration: none;
+    color: black;
+}
+#margenregistro{
+    width: 100%;
+    height: 65%;
+}
+/* Fin registro*/
+#margeninicio{
+    width: 100%;
+    height: 65%;
+    background-image:  url("imagenes/siesta_nerflix.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
