@@ -1,0 +1,230 @@
+body{
+    background-color: #dcdad7;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #dcdad7;
+}
+footer{
+    width: 100%;
+}
+input{
+    display: block;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 138px;
+    height: 50px;
+}
+#logo2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#buscador{
+    border: 1px solid rgb(41, 39, 39);
+    border-radius: 12px;
+    width: 500px;
+    
+    }
+#busca{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#premium a{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+#cuenta a{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+#carro a{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+.centrado{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#categoria{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dcdad7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.sentrito{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#publi{
+    width: 100%;    
+    background-color:rgba(231, 223, 223, 0.918) ;
+}
+#publi img{
+    width: 100;
+}
+#boton{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+#boton img{
+    width: 275px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#chollos{
+    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+    margin-top: 30px;
+    
+    background-color: rgb(68, 64, 64);
+}
+#chollos img{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#chollos p{
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: x-large;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+#registro{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#izquierda{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#derecha{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+h1{
+    font-size: 1.8125rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#promocion img{
+    width: 200px; 
+}
+#promocion{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+    margin-top: 100px;
+}
+.porciento{
+    position: absolute;
+    top: 16px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #bf0019;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+}
+p,h2,a,h3{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#Campaña{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+}
+#Campaña h3{
+    text-align: center;
+}
+#Campaña img{
+    width: 170px;
+
+}
+#Destacadas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Destacadas img{
+    width: 150px;
+}
+#Envio img{
+    border-right: 1px solid black;
+}
+#Categorias{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Categorias img{
+    width: 150px;
+}
+#Interesa{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: space-around;
+        justify-content: space-around;
+}
