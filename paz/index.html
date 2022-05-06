@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,300;0,900;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="principal">
+      <div id="rectangulo">
+        <fieldset>
+          <legend><p id="legend">-75€ ya aplicados</p></legend>
+          <div id="linea1">
+            <img src="img/clasificacion.png" alt="" />
+            <p id="texto1">&nbsp (13)</p>
+          </div>
+          <div id="linea2">
+            <p>
+              Apple MacBook Air (2020), 13.3" Retina, Chip M1 de Apple, 8 GB,
+              256 GB SSD, MacOS, Teclado Magic Keyboard Touch ID, Gris espacial
+            </p>
+          </div>
+          <div id="linea3">
+            <div id="block1">
+              <a href="img/fee_786_587_png.webp">
+                <img id="zoom" src="img/mobile_200_200_png.webp" alt=""
+              /></a>
+            </div>
+            <div id="block2">
+              <p>Procesador</p>
+              <p><b>Apple Silicon M1</b></p>
+              <p>Tamaño memoria RAM</p>
+              <p><b>8 GB</b></p>
+              <p>Sistema Operativo</p>
+              <p><b>MacOS</b></p>
+              <p>Disco duro 1</p>
+              <p><b>SSD, 256GB</b></p>
+            </div>
+            <div id="block3">
+              <div id="primero">
+                <li id="verde"><b>Entrega 04/05/2022-05/05/2022</b></li>
+                <li id="gris"><b>Recogida</b></li>
+                <p>Seleccionar tienda</p>
+              </div>
+              <div id="segundo">
+                <div id="precio">
+                  <p id="grey">
+                    <del><b>1050.</b></del>
+                  </p>
+                  <p id="red"><b>975.</b></p>
+                </div>
+                <div>
+                  <p class="textoInf">IVA incl. con envio gratis</p>
+                  <p class="textoInf">Financiacion: 14 cuotas de 77,71€**</p>
+                </div>
+              </div>
+            </div>
+            <div id="block4">
+              <div>
+                <img id="myImage" onclick="changeImage()" src="img/corazon.PNG" alt="" />
+                <script>
+                    function changeImage() {
+                        var image = document.getElementById('myImage');
+                        if (image.src.match("on")){
+                            image.src = "img/corazonrojo.PNG";
+                        } else {
+                            image.src = "img/corazon.PNG"
+                        }
+                    }
+                </script>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
