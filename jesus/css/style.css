@@ -1,0 +1,486 @@
+#global_header{
+    width: 100%;
+    height: 105px;
+    background-color: #1b2838;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#contenedor_header{
+    width: 70%;
+   /* background-color: aqua;*/
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+#logo{
+    width: 35%;
+    height: 105px;
+   
+   /* background-color: brown;*/
+
+
+    
+
+
+}
+
+
+#img_logo{
+    width: 100%;
+    height: 105px;
+}
+
+
+#menu{
+    width: 40%;
+    height: 105px;
+   /* background-color: burlywood;*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  
+  
+    
+}
+
+.menus{
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.boton{
+    margin-right: 15px;
+    background-color: #5c7e10;
+    color: white;
+    border: 2px;
+    border-radius: 2px;
+}
+
+
+#login{
+    width: 40%;
+    height: 105px;
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#global_principal{
+    width: 100%;
+    height: auto;
+    /*background-color: violet;*/
+    background: linear-gradient(#264055, #1b2838);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor_principal{
+    width: 65%;
+    height: 2750px;
+    /*background-color: tomato;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#navbar{
+    width: 70%;
+    height: 50px;
+    background: linear-gradient(#3b6390, #1b387e);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menunavbar{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#cuadro1{
+    width: 70%;
+    height: 450px;
+    /*background-color: turquoise;*/
+    margin-top: 20px;
+    color: white;
+
+}
+#img{
+    width: 100%;
+    height: 450px;
+}
+
+#cuadro2{
+    width: 70%;
+    height: 590px;
+   /* background-color: turquoise;*/
+    margin-top: 90px;
+    color: white;
+}
+
+#recomendables{
+    width: 100%;
+    height: 100%;
+   /* background-color: black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#indie{
+    width: 33%;
+    height: 100%;
+    /*background-color: blue;*/
+    margin-right: 10px;
+}
+#postal{
+    width: 33%;
+    height: 100%;
+   /* background-color: red;*/
+   margin-right: 10px;
+}
+
+#love{
+    width: 33%;
+    height: 100%;
+   /* background-color: violet;*/
+}
+
+#img2{
+    width: 100%;
+    height: 100%;
+}
+
+/*Shopping*/
+
+#cuadro3{
+    width: 70%;
+    height: 70px;
+  /*background-color: turquoise;*/
+    margin-top: 90px;
+   
+}
+
+
+
+#steamdeck{
+    width: 49%;
+    height: 100%;
+    background-color: tomato;
+    float: left;
+    
+}
+
+#valvedeck{
+    width: 49%;
+    height: 100%;
+    background-color: blue;
+    float: right;
+    
+}
+
+#img3{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+#cuadro4{
+    width: 70%;
+    height: 380px;
+   /* background-color: turquoise;*/
+    margin-top: 20px;
+    color: white;
+}
+#img4{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#cuadro5{
+    width: 70%;
+    height: 150px;
+  /*  background-color: turquoise;*/
+    margin-top: 120px;
+    color: white;
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.explorar{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(90deg, #06BFFF 0%, #277fff 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#steam{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+
+#cuadro6{
+    width: 70%;
+    height: 600px;
+  /* background-color: turquoise;*/
+    color: white;
+}
+
+
+#juegos_free{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+
+
+
+
+/*Registro*/
+#login_registro{
+    width: 100%;
+    height: 1004px;
+   /* background-color: tomato;*/
+    background-image: url(../img/fondologin.jpg);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#register{
+    width: 45%;
+    height: 900px;
+    /*background-color: turquoise;*/
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+
+
+/*****************Login***************************/
+
+#login_contenedor{
+    width: 100%;
+    height: 864px;
+    /*background-color: tomato;*/
+    background-image: url(../img/fondologin.jpg);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+#logeo{
+    width: 45%;
+    height: 500px;
+    /*background-color: turquoise;*/
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombres{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 20px;
+    color: white;
+    
+}
+
+#ter{
+    color: white;
+}
+
+
+/**estilos login**/
+
+#img_login{
+    width: 240px;
+    height: 20  0px;
+}
+
+
+#boton_log{
+    width: 150px;
+    height: 33px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: white 2px solid;
+    margin: 5px;
+}
+
+#boton_reg{
+    width: 150px;
+    height: 33px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: white 2px solid;
+    margin: 5px;
+    text-align: center;
+    background: linear-gradient(90deg, #06BFFF 0%, #277fff 100%);
+}
+
+
+#fondo{
+    width: 300px;
+    height: 20px;
+    background: linear-gradient(90deg, #26282D 0%, #32353C 100%);
+}
+
+
+/*Footer*****/
+
+#footer{
+    width: 100%;
+   height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+#contenedor_footer{
+    width: 45%;
+    height: 20px;
+   /* background-color: black;*/
+}
+
+#fotosfin{
+    width: 100%;
+    height: 50px;
+    /*background-color: coral;*/
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row ;
+}
+
+#fotofin1{
+    
+    width: 140px;
+}
+
+
+#fotofin2{
+    width: 140px;
+   
+}
+
+
+
+
+
+
+#terminos{
+    width: 100%;
+    height: 90px;
+    /*background-color: coral;*/
+}
+
+
+
+.barra{
+    height: 0.04px;
+    color: cornflowerblue;
+}
+
+
+p{
+    color: white;
+}
+
+#links{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row ;
+}
+
+
+.linkfinal{
+    text-decoration:  none;
+    color: white;
+}
+
+
+#texto{
+    width: 400px;
+    
+    background-color: #20232a;
+    font-size: 16px;
+    border: 3px solid black;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    resize: vertical;
+}
+
+/*Cursores para los menus*/
+#img_logo{
+    cursor: pointer;
+}
+
+#img{
+    cursor: zoom-in;    
+}
+
+#instalacion{
+    cursor: no-drop;
+}
