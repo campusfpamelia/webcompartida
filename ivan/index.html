@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="img/fondo.jpg">
+</head>
+<body>
+    
+    <form action="">
+        <label for="email" id="email">Correo</label>
+        <input type="email">
+        <label for="textarea" id="text">Texto</label>
+        <textarea name="message" rows="10" cols="30">
+            Texto de ejemplo.
+            </textarea>
+        
+
+        <label for="opcion1">Opción 1</label>
+        <input type="radio" id="opcion1" name="opcion" value="opcion1">
+        <label for="opcion2">Opción 2</label>
+        <input type="radio" id="opcion2" name="opcion" value="opcion2">
+        <label for="opcion3">Opción 3</label>
+        <input type="radio" id="opcion3" name="opcion" value="opcion3">
+        
+        <label for="checkbox" id="checkbox">Aceptar la política de privacidad</label>
+        <input type="checkbox">
+        <label for="url" id="url">Enlace</label>
+        <input type="url">
+        <label for="select" id="select">Selecciona país</label>
+        <select id="pais" name="pais">
+            <option hidden value="elige">Elige un país</option>
+            <option value="francia">Francia</option>
+            <option value="portugal">Portugal</option>
+            <option value="italia">Italia</option>
+            <option value="alemania">Alemania</option>
+          </select>
+        <button>Enviar</button>
+        <fieldset>
+            <legend>Datos personales:</legend>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" id="lname" name="lname">
+            <input type="submit" id="env" value="Enviar">
+          </fieldset>
+          
+          <input list="browsers" name="browser" id="bro">
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+          <input type="submit" value="Enviar" id="env2">
+
+
+
+
+
+    </form>
+</body>
+</html>
