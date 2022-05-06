@@ -1,0 +1,81 @@
+
+.container{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgb(85, 83, 83);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+.estrellas img{
+    width: 10%;
+}
+.Textosup{
+    display: flex;
+   
+}
+.imagen{
+    cursor: zoom-in;
+    
+}
+#elementos{
+    list-style-type: none;
+   
+}
+#abajo{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+
+}
+#arriba{
+    color: rgb(73, 71, 69);
+    font-size: 12px;
+    font-family: SourceSansPro, Arial, sans-serif;
+}
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+#arriba1{
+    font-size: 12px;
+    font-family: SourceSansPro, Arial, sans-serif;
+    justify-content: space-between;
+ 
+}
+#abajo1{
+    color: rgb(73, 71, 69);
+    font-size: 12px;
+    font-family: SourceSansPro, Arial, sans-serif;
+    font-weight: 400;
+}
+#rojo{
+    color: red;
+    font-family: SourceSansPro, Arial, sans-serif;
+    font-weight: 600;
+    margin-left: 5%;
+}
+#negro{
+    font-family: SourceSansPro, Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(73, 71, 69);
+}
+#num{
+    display: flex;
+}
+#corazon{
+    float: right;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(207, 203, 202);
+    padding: 6px;
+    
+}
+#corazon img{
+    width: 25px;
+    
+}
+
+
