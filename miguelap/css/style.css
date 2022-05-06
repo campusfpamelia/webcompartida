@@ -1,0 +1,143 @@
+.zoom{
+    cursor: zoom-in;
+}
+
+#bloque{
+    width: 60%;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 203, 202);
+    border-radius: 8px;
+    height: 100%;
+}
+
+#Principal{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+#primero{
+    display: flex;
+}
+#segundo{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 80px;
+}
+#tercero{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+}
+#cuarto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 800px;
+    top: 90px;
+}
+#precio{
+    position: absolute;
+    top: 150px;
+}
+
+p{
+    margin: -3px;
+    line-height: 24px;
+    font-family: SourceSansPro, Arial, sans-serif;
+}
+
+#titulo2{
+    font-size: 12px;
+    color: gray;
+}
+#titulo3{
+    font-size: 12px;
+    color: gray;
+}
+#titulo4{
+    font-size: 12px;
+    color: gray;
+}
+#titulo5{
+    font-size: 12px;
+    color: gray;
+}
+#nombre2{
+    font-size: 14px;
+}
+#nombre3{
+    font-size: 14px;
+}
+#nombre4{
+    font-size: 14px;
+}
+#nombre5{
+    font-size: 14px;
+}
+
+#entrega1{
+    color: rgb(39, 36, 34);
+    font-size: 12px;
+}
+#recogida1{
+    color: rgb(39, 36, 34);
+    font-size: 12px;
+}
+#recogida2{
+    color: rgb(39, 36, 34);
+    font-size: 12px;
+}
+#recogida{
+    position: absolute;
+    top: 40px;
+}
+
+#precio1{
+    color: rgb(39, 36, 34);
+    font-size: 15px;
+}
+#precio2{
+    position: absolute;
+    left: 45px;
+    bottom: 21px;
+    color: rgb(39, 36, 34);
+    font-size: 15px;
+    color: brown;
+}
+#iva1{
+    color: rgb(39, 36, 34);
+    font-size: 12px;
+}
+
+li{
+    list-style: none;
+}
+
+.circulo {
+    position: absolute;
+    right: 168px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+}
+.circulo2 {
+    position: absolute;
+    right: 100px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: gray ;
+}
+
